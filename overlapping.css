@@ -1,0 +1,73 @@
+
+
+		ul {
+			list-style-type: none;
+			font-family: MplusRegular, Arial, serif;
+			font-size: 130%;
+			position: fixed;
+			z-index: 5;
+			line-height: 2em;
+			letter-spacing: 0.2em;
+			overflow: hidden; }
+
+		a:link {
+			color: black;
+			text-decoration: none; }
+		a:visited {
+			color: black; }
+		a:hover {
+			color: black;
+			text-decoration: underline;
+			cursor: url('oth677.cur'), auto; }
+		a:active {
+			color: black
+			text-decoration: underline; }
+
+		@font-face {
+			font-family: 'MplusBold';
+			src: url('mplus-1c-bold-webfont.eot');
+			src: url('mplus-1c-bold-webfont.eot?#iefix') format('eot'),
+	    		url('mplus-1c-bold-webfont.woff') format('woff'),
+			url('mplus-1c-bold-webfont.ttf') format('truetype'),
+			url('mplus-1c-bold-webfont.svg#MplusBold') format('svg');}
+
+		@font-face {
+			font-family: 'MplusRegular';
+			src: url('mplus-1c-regular-webfont.eot');
+			src: url('mplus-1c-regular-webfont.eot?#iefix') format('eot'),
+	    		url('mplus-1c-regular-webfont.woff') format('woff'),
+			url('mplus-1c-regular-webfont.ttf') format('truetype'),
+			url('mplus-1c-bold-webfont.svg#MplusRegular') format('svg');}
+
+		@font-face {
+			font-family: 'MplusMedium';
+			src: url('mplus-1c-medium-webfont.eot');
+			src: url('mplus-1c-medium-webfont.eot?#iefix') format('eot'),
+	    		url('mplus-1c-medium-webfont.woff') format('woff'),
+			url('mplus-1c-medium-webfont.ttf') format('truetype'),
+			url('mplus-1c-medium-webfont.svg#MplusMedium') format('svg');}
+
+		@font-face {
+			font-family: 'CrimsonText-Regular';
+			src: url('CrimsonText-Regular.eot');
+			src: url('CrimsonText-Regular.eot?#iefix') format('eot'),
+	    		url('CrimsonText-Regular.woff') format('woff'),
+			url('CrimsonText-Regular.ttf') format('truetype'),
+			url('CrimsonText-Regular.svg#MplusBold') format('svg');}
+
+		.social1 {
+			font-family: MplusRegular, Arial, serif;
+			font-size: 75%;
+			letter-spacing: 0.1em;
+			line-height: 2em;
+			margin: 2% 0 10% 0;
+			text-align: center; }
+
+		.social2 {
+			font-family: MplusRegular, Arial, serif;
+			font-size: 75%;
+			letter-spacing: 0.1em;
+			line-height: 2em;
+			margin: 2% 0 10% 0;
+			text-align: center; }
+

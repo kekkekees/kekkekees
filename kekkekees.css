@@ -1,0 +1,58 @@
+		* {
+			background: #ffcc33; }
+
+		h1 {
+			font-family: MplusRegular, Arial, serif;
+			font-size: 200%;
+			color: #000000;
+			letter-spacing: 0.2em;
+			word-spacing: 1em; }
+
+		h2 {
+			text-align: right;
+			font-family: MplusRegular, Arial, serif;
+			font-size: 100%;
+			color: #000000;
+			letter-spacing: 0.2em;
+			word-spacing: 1em; }
+
+		h3 {
+			font-family: Georgia, Times, serif;
+			font-size: 90%;
+			color: #000000;
+			line-height: 2em; }
+		
+		p {
+			font-family: CrimsonText-Regular, Times, serif;
+			font-size: 16px; }
+
+
+		footer {
+			font-family: MplusRegular, Arial, serif;
+			font-size: 75%;
+			letter-spacing: 0.2em;
+			line-height: 2em;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			-moz-transform: translateX(-50%);
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%) }
+
+		#content {
+			max-width: 500px;
+			padding: 15px;
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			-moz-transform: translateX(-50%) translateY(0%);
+			-webkit-transform: translateX(-50%) translateY(0%);
+			transform: translateX(-50%) translateY(0%); }
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translateX(-50%) translateY(-50%);
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%); }
